@@ -21,7 +21,7 @@ Repositorio para la materia ingenieria y calidad de software, del curso 4k3 - Gr
 # Glosario
 | Sigla| Significado |
 | ------------ | ------------ |
-| \<<Titulo\>> | Título del libro o paper |
+| \<Titulo\> | Título del libro o paper |
 | \<<Ux\>>|U significa unidad y la x es un número incremental que indica el número de la unidad. Ej: U1, U2, Un, etc. |
 | \<<TemaResumen\>> | Tema de la materia Ingeniería de Software sobre el que trata el resumen. |
 | \<<TPx\>> |Indica el número del trabajo práctico de la materia Ingeniería de Software. X es un número incremental. Ej: TP1, TP2, TPn, etc |
