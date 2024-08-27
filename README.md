@@ -24,8 +24,22 @@ Repositorio para la materia ingenieria y calidad de software, del curso 4k3 - Gr
   
 # Items de configuración
 
-| Item de configuracion | Nombrado | Ubicacion |
-| ------------ | ------------ | ------------ |
+| Ítem de configuración | Regla Nombrado | Ubicación Física
+| ------------ | ------------ | ------------ | 
+| Cronograma | Cronograma ISW - Estudiantes.pdf | ISW_G6_4K3_2024 | 
+| Programa de la materia | Modalidad Planificación Ingeniería y Calidad de Software.pdf | ISW_G6_4K3_2024 |
+| Template | Template <Especificación>.pdf | ISW_G6_4K3_2024/Templates |
+| Datos profesores | ISW_Contactos_profesores.md | ISW_G6_4K3_2024 |
+| Clases grabadas teórico | <Ing de Sw - Clases grabadas><AAAA>.XLSX | ISW_G6_4K3_2024/Teórico |
+| Presentación de clases | <0x> <Nombre de la presentación>.pdf | ISW_G6_4K3_2024/Teórico/Presentación |
+| Resúmenes | <Resumen><Parcial><X>.<Extensión> | ISW_G6_4K3_2024/Teórico/Resúmenes |
+| Bibliografía | <Nombre>.pdf | ISW_G6_4K3_2024/Teórico/Bibliografía/<Nombre Tema> |
+| Clases grabadas práctico | <Ing de Sw - Clases grabadas><AAAA>.xlsx | ISW_G6_4K3_2024/Práctico |
+| Guías de Ejercicios resueltos | Guías de Ejercicios resueltos.pdf | ISW_G6_4K3_2024/Práctico | 
+| Guía de Trabajos Prácticos | Guía de Trabajos Prácticos.pdf | ISW_G6_4K3_2024/Práctico/Ejercicios Prácticos Grupal | 
+| Trabajo de Práctico Grupal | TP<X>.pdf | ISW_G6_4K3_2024/Práctico/Ejercicios Prácticos Grupal/TP<X> | 
+| Guía para presentación de trabajos de investigación | Guía para presentación de trabajos de investigación.pdf | ISW_G6_4K3_2024/Práctico/Trabajo de Investigación Grupal/ |
+| Trabajo de Investigación Grupal | TIG<X>.pdf | ISW_G6_4K3_2024/Práctico/Trabajo de Investigación Grupal/TIG<X> |
 
 # Glosario
 | Sigla| Significado |
