@@ -2,12 +2,12 @@
 Repositorio para la materia ingenieria y calidad de software, del curso 4k3 - Grupo 6.
 
 # Estructura de archivos
-- Clases grabadas
 - Cronograma
 - Programa de la materia
 - Templates
 - Datos profesores
-- **Material Practico**  
+- **Material Practico**
+  - Clases Grabadas
   - Guías de Ejercicios resueltos 
   - Ejercicios Prácticos Grupal
     - Guía de Trabajos Prácticos
@@ -16,7 +16,8 @@ Repositorio para la materia ingenieria y calidad de software, del curso 4k3 - Gr
     - Guía para presentación de trabajos de investigación
     - Poster Científico 
     - Charla Ted
-- **Material Teorico**  
+- **Material Teorico**
+  - Clases Grabadas  
   - Presentaciones de clases
   - Resúmenes
   - Bibliografía
