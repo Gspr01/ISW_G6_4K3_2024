@@ -3,7 +3,7 @@ Repositorio para la materia ingenieria y calidad de software, del curso 4k3 - Gr
 
 # Estructura de archivos
 - Cronograma
-- Programa de la materia
+- Programa de la asignatura
 - Templates
 - Datos profesores
 - **Material Practico**
