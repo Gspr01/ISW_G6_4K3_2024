@@ -26,7 +26,7 @@ Repositorio para la materia ingenieria y calidad de software, del curso 4k3 - Gr
 | Ítem de configuración | Regla Nombrado | Ubicación Física
 | ------------ | ------------ | ------------ | 
 | Cronograma | Cronograma.md | ISW_G6_4K3_2024 | 
-| Programa de la materia | Modalidad Planificación Ingeniería y Calidad de Software.pdf | ISW_G6_4K3_2024 |
+| Programa de la materia | Programa_Asignatura.pdf | ISW_G6_4K3_2024 |
 | Template | Template \<Especificación>.\<extension> | ISW_G6_4K3_2024/Templates |
 | Datos profesores | Datos_Profesores.md | ISW_G6_4K3_2024 |
 | Clases grabadas teórico | Ing de Sw - Clases grabadas \<aaaa>.xlsx | ISW_G6_4K3_2024/Teórico |
