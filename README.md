@@ -27,18 +27,18 @@ Repositorio para la materia ingenieria y calidad de software, del curso 4k3 - Gr
 | ------------ | ------------ | ------------ | 
 | Cronograma | Cronograma ISW - Estudiantes.pdf | ISW_G6_4K3_2024 | 
 | Programa de la materia | Modalidad Planificación Ingeniería y Calidad de Software.pdf | ISW_G6_4K3_2024 |
-| Template | Template <Especificación>.pdf | ISW_G6_4K3_2024/Templates |
+| Template | Template \<Especificación>.\<extension> | ISW_G6_4K3_2024/Templates |
 | Datos profesores | ISW_Contactos_profesores.md | ISW_G6_4K3_2024 |
-| Clases grabadas teórico | Ing de Sw - Clases grabadas <aaaa>.xlsx | ISW_G6_4K3_2024/Teórico |
-| Presentación de clases | <0x> <Nombre de la presentación>.pdf | ISW_G6_4K3_2024/Teórico/Presentación |
-| Resúmen | Resumen <Px>.doc | ISW_G6_4K3_2024/Teórico/Resúmenes |
-| Bibliografía | <Nombre_Libro>.pdf | ISW_G6_4K3_2024/Teórico/Bibliografía/<Nombre_Tema> |
-| Clases grabadas práctico | <Ing de Sw - Clases grabadas><AAAA>.xlsx | ISW_G6_4K3_2024/Práctico |
+| Clases grabadas teórico | Ing de Sw - Clases grabadas \<aaaa>.xlsx | ISW_G6_4K3_2024/Teórico |
+| Presentación de clases | \<0x> \<Nombre de la presentación>.pdf | ISW_G6_4K3_2024/Teórico/Presentación |
+| Resúmen | Resumen \<Px>.doc | ISW_G6_4K3_2024/Teórico/Resúmenes |
+| Bibliografía | \<Nombre_Libro>.pdf | ISW_G6_4K3_2024/Teórico/Bibliografía/\<Nombre_Tema> |
+| Clases grabadas práctico | Ing de Sw - Clases grabadas \<aaaa>.xlsx | ISW_G6_4K3_2024/Práctico |
 | Guías de Ejercicios resueltos | Guías de Ejercicios resueltos.pdf | ISW_G6_4K3_2024/Práctico | 
 | Guía de Trabajos Prácticos | Guía de Trabajos Prácticos.pdf | ISW_G6_4K3_2024/Práctico/Ejercicios_Prácticos_Grupal | 
-| Trabajo de Práctico Grupal | TP<x>.pdf | ISW_G6_4K3_2024/Práctico/Ejercicios_Prácticos_Grupal/TP<x> | 
+| Trabajo de Práctico Grupal | TP\<x>.pdf | ISW_G6_4K3_2024/Práctico/Ejercicios_Prácticos_Grupal/TP\<x> | 
 | Guía para presentación de trabajos de investigación | Guía para presentación de trabajos de investigación.pdf | ISW_G6_4K3_2024/Práctico/Trabajo_de_Investigación_Grupal/ |
-| Trabajo de Investigación Grupal | TIG<x>.pdf | ISW_G6_4K3_2024/Práctico/Trabajo de Investigación Grupal/<Nombre_Tema_TIG> |
+| Trabajo de Investigación Grupal | TIG\<x>.pdf | ISW_G6_4K3_2024/Práctico/Trabajo de Investigación Grupal/\<Nombre_Tema_TIG> |
 
 # Glosario
 | Sigla| Significado |
