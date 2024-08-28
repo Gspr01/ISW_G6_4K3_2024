@@ -2,22 +2,19 @@
 Repositorio para la materia ingenieria y calidad de software, del curso 4k3 - Grupo 6.
 
 # Estructura de archivos
-- Cronograma
-- Programa de la asignatura
 - Templates
-- Datos profesores
 - **Material Practico**
-  - Clases_Grabadas
-  - Guías_de_Ejercicios_resueltos
-  - TP<x>
-  - Guía_de_Trabajos_Prácticos
-  - Trabajo_de_Investigación_Grupal
-    - Guía_para_Presentación_de_Trabajos_de_Investigación
-    - Poster_Científico 
-    - Charla_Ted
+  - Clases_grabadas
+  - Guías_de_ejercicios_resueltos
+  - TP\<x>
+  - Guía_de_trabajos_prácticos
+  - Trabajo_de_investigación_grupal
+    - Guía_para_presentación_de_trabajos_de_investigación
+    - Poster_científico 
+    - Charla_ted
 - **Material Teorico**
-  - Clases_Grabadas  
-  - Presentaciones_de_Clases
+  - Clases_grabadas  
+  - Presentaciones_de_clases
   - Resúmenes
   - Bibliografía
   
