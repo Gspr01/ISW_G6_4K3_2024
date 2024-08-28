@@ -7,17 +7,17 @@ Repositorio para la materia ingenieria y calidad de software, del curso 4k3 - Gr
 - Templates
 - Datos profesores
 - **Material Practico**
-  - Clases Grabadas
-  - Guías de Ejercicios resueltos
-  - TPx
-  - Guía de Trabajos Prácticos
-  - Trabajo de Investigación Grupal
-    - Guía para presentación de trabajos de investigación
-    - Poster Científico 
-    - Charla Ted
+  - Clases_Grabadas
+  - Guías_de_Ejercicios_resueltos
+  - TP<x>
+  - Guía_de_Trabajos_Prácticos
+  - Trabajo_de_Investigación_Grupal
+    - Guía_para_Presentación_de_Trabajos_de_Investigación
+    - Poster_Científico 
+    - Charla_Ted
 - **Material Teorico**
-  - Clases Grabadas  
-  - Presentaciones de clases
+  - Clases_Grabadas  
+  - Presentaciones_de_Clases
   - Resúmenes
   - Bibliografía
   
