@@ -32,7 +32,7 @@ Repositorio para la materia ingenieria y calidad de software, del curso 4k3 - Gr
 | Datos profesores | ISW_Contactos_profesores.md | ISW_G6_4K3_2024 |
 | Clases grabadas teórico | <Ing de Sw - Clases grabadas><AAAA>.XLSX | ISW_G6_4K3_2024/Teórico |
 | Presentación de clases | <0x> <Nombre de la presentación>.pdf | ISW_G6_4K3_2024/Teórico/Presentación |
-| Resúmenes | <Resumen><Parcial><X>.<Extensión> | ISW_G6_4K3_2024/Teórico/Resúmenes |
+| Resúmenes | Resumen parcial <X>.<Extensión> | ISW_G6_4K3_2024/Teórico/Resúmenes |
 | Bibliografía | <Nombre>.pdf | ISW_G6_4K3_2024/Teórico/Bibliografía/<Nombre Tema> |
 | Clases grabadas práctico | <Ing de Sw - Clases grabadas><AAAA>.xlsx | ISW_G6_4K3_2024/Práctico |
 | Guías de Ejercicios resueltos | Guías de Ejercicios resueltos.pdf | ISW_G6_4K3_2024/Práctico | 
