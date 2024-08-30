@@ -1,5 +1,15 @@
 # ISW_G6_4K3_2024
-Repositorio para la materia ingenieria y calidad de software, del curso 4k3 - Grupo 6.
+Repositorio para la materia ingenieria y calidad de software, del curso 4k3, Grupo 6.
+
+# Integrantes del grupo
+| Nombre | Legajo | Mail
+| ------------ | ------------ | ------------ | 
+| Daiana Jacqueline Makula | 89209 | daianamakula@gmail.com | 
+| Gaspar Iglesias | 82037 | gaspariglesias93@gmail.com | 
+| Paulina Tirante | 83067 | paulinatirante.28@gmail.com | 
+| Nicolas Pedro Pedernera | 83201 | pederneranic15@gmail.com | 
+| Valentina de los Angeles Zabala | 80044 | valentinazabala20@gmail.com | 
+| Walter Ignacio Enrique | 71471 | nacho.enrique.97@gmail.com | 
 
 # Estructura de archivos
 - **Material_Practico**
