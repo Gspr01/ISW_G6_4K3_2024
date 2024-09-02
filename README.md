@@ -11,17 +11,6 @@ Repositorio para la materia ingenieria y calidad de software, del curso 4k3, Gru
 | Valentina de los Angeles Zabala | 80044 | valentinazabala20@gmail.com | 
 | Walter Ignacio Enrique | 71471 | nacho.enrique.97@gmail.com | 
 
-## Integrantes
-| Legajo | Apelido y Nombre |
-|--|--|
-| 82037 | Gaspar, Iglesias |
-| 89209 | Makula, Daiana Jacqueline | 
-| 89284 | Oxley, Analía | 
-| 83201 | Pedernera, Pedro Nicolas |
-| 83067 | Tirante, Paulina |
-| 80044 | Zabala, Valentina de los Angeles |
-| 71471 | Enrique, Walter Ignacio |
- 
 ## Estructura de archivos
 - **Material_Practico**
   - Clases_grabadas
