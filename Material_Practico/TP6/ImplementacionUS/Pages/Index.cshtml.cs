@@ -4,7 +4,7 @@ using System;
 
 namespace ImplementacionUS.Pages
 {
-    public class IndexModel : PageModel
+    public class PedidoEnvio : PageModel
     {
         [BindProperty]
         public string TipoCarga { get; set; }
@@ -46,9 +46,8 @@ namespace ImplementacionUS.Pages
 
         public IActionResult OnPost()
         {
-            TempData["SuccessMessage"] = "Pedido publicado exitosamente.";
+            TempData["SuccessMessage"] = "Pedido publicado exitosamente!";
             return Page();
-           
         }
     }
 }

@@ -1,5 +1,5 @@
 ﻿@page
-@model ImplementacionUS.Pages.IndexModel
+@model ImplementacionUS.Pages.PedidoEnvio
 
 @{
     ViewData["Title"] = "Publicar Pedido de Envío";
@@ -67,7 +67,7 @@ h1 {
 
         @if (TempData["SuccessMessage"] != null)
         {
-            <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+            <div class="alert alert-success">@TempData["SuccessMessage"]</div> 
         }
 
         <form method="post">
@@ -76,10 +76,14 @@ h1 {
                 <label for="tipoCarga" class="Subtitulo">Tipo de Carga</label>
                 <select id="tipoCarga" class="form-control" asp-for="TipoCarga" required>
                     <option value="">Seleccione un tipo de carga</option>
-                    <option value="liviana">Liviana</option>
+                    @* <option value="liviana">Liviana</option>
                     <option value="pesada">Pesada</option>
                     <option value="peligrosa">Peligrosa</option>
-                    <option value="fragil">Frágil</option>
+                    <option value="fragil">Frágil</option> *@
+                    <option value="documentacion">Documentación</option>
+                    <option value="paquete">Paquete</option>
+                    <option value="granos">Granos</option>
+                    <option value="hacienda">Hacienda</option>
                 </select>
             </div>
 
@@ -127,7 +131,7 @@ h1 {
             <!-- Fecha de Retiro -->
             <div class="form-group">
                 <label for="fechaRetiro" class="Subtitulo">Fecha de Retiro</label>
-                <input type="date" id="fechaRetiro" name="FechaRetiro" class="form-control" asp-for="FechaRetiro" required style="margin-bottom: 20px;" value="dd-mm-aaaa" />
+                <input type="date" id="fechaRetiro" name="FechaRetiro" class="form-control" asp-for="FechaRetiro" required style="margin-bottom: 10px;" value="dd-mm-aaaa" />
             </div>
 
             <!-- Campos de domicilio de entrega -->
@@ -168,7 +172,7 @@ h1 {
             <!-- Referencia Entrega -->
             <div class="form-group">
                 <label for="referencia">Referencia (opcional):</label>
-                <input type="text" id="referencia_entrega" class="form-control" asp-for="Referencia_entrega" placeholder="Ingrese una referencia" required />
+                <input type="text" id="referencia_entrega" class="form-control" asp-for="Referencia_entrega" placeholder="Ingrese una referencia" />
             </div>
 
             <!-- Fecha de Entrega -->
@@ -181,9 +185,9 @@ h1 {
             <div class="form-group mt-4">
                 <label for="imagenCarga" class="Subtitulo">Adjuntar Imagenes:</label>
 
-                <input type="file" id="imagenCarga" name="imagenCarga" class="form-control-file" accept="image/*">
+                <input type="file" id="imagenCarga" name="imagenCarga" class="form-control-file" accept=".jpf, .png" multiple>
 
-                <small class="form-text text-muted">Seleccione una imagen para cargar. El tamaño máximo permitido es 10 MB.</small>
+                <small class="form-text text-muted">El tamaño máximo permitido es 10 MB.</small>
             </div>
 
             <!-- Botón de Enviar -->
@@ -215,8 +219,12 @@ h1 {
         } -->
 
     </div>
-
+     
+    <!-- Referenciamos el archivo JavaScript-->
+    <script src="~/js/validaciones.js"></script>
     <!-- Scripts de Bootstrap y Popper.js para funcionalidad -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <!--Animaciones alert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
