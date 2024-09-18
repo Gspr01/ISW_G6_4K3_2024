@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35209.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TangoAPP", "ImplementacionUS\TangoAPP.csproj", "{AA1892D7-3505-4A68-BCBA-AA8211B81958}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA1892D7-3505-4A68-BCBA-AA8211B81958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1892D7-3505-4A68-BCBA-AA8211B81958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA1892D7-3505-4A68-BCBA-AA8211B81958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1892D7-3505-4A68-BCBA-AA8211B81958}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0E35E89-4E2A-4E74-ABC6-4E68082D1F75}
+	EndGlobalSection
+EndGlobal
