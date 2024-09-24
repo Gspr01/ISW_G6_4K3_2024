@@ -68,6 +68,13 @@ Nuestra línea base en el repositorio de software se configurará considerando e
 Cada línea base tiene un nombre con la siguiente nomenclatura:
 v[MAJOR].[MINOR]
 
+Líneas base disponibles: 
+
+| Nombre | Fecha | Descripción
+| ------------ | ------------ | ------------ | 
+| v1.0 | 3/9/2024 | Repositorio en su primera versión, con el material disponible en la UV para el cursado de la materia. | 
+| v2.0 | 18/9/2024 | Implementación del US correspondiente al Trabajo práctico evaluable N° 6 | 
+
 
 
 
