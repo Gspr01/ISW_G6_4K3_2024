@@ -10,6 +10,7 @@ Repositorio para la materia ingenieria y calidad de software, del curso 4k3 - Gr
 | Nicolas Pedro Pedernera | 83201 | pederneranic15@gmail.com | 
 | Valentina de los Angeles Zabala | 80044 | valentinazabala20@gmail.com | 
 | Walter Ignacio Enrique | 71471 | nacho.enrique.97@gmail.com | 
+| Oxley Analia | 89284 | analia.oxley@gmail.com | 
 
 ## Estructura de archivos
 - **Material_Practico**
