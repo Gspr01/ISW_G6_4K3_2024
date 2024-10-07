@@ -75,6 +75,7 @@ Líneas base disponibles:
 | v1.0 | 3/9/2024 | Repositorio en su primera versión, con el material disponible en la UV para el cursado de la materia. | 
 | v2.0 | 18/9/2024 | Implementación del US correspondiente al Trabajo práctico evaluable N° 6 | 
 | v3.0 | 26/9/2024 | Implementación de la dinámica del marco de trabajo SCRUM correspondiente al Trabajo práctico evaluable N° 7 | 
+| v4.0 | 07/10/2024 | Primer Parcial rendido el 28/9/2024 | 
 
 
 
