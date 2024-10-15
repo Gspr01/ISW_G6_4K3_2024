@@ -57,19 +57,9 @@ namespace ImplementacionUS.Pages
             //Validacion Fechas
             var Fecha_Hoy = DateTime.Today;
 
-            if (FechaRetiro < Fecha_Hoy)
+            if (FechaRetiro < Fecha_Hoy || FechaEntrega < Fecha_Hoy || FechaEntrega < FechaRetiro)
             {
-                ModelState.AddModelError("FechaRetiro", "La fecha de retiro debe ser hoy o una fecha futura.");
-            }
-
-            if (FechaEntrega < Fecha_Hoy)
-            {
-                ModelState.AddModelError("FechaEntrega", "La fecha de entrega debe ser hoy o una fecha futura.");
-            }
-
-            if (FechaEntrega < FechaRetiro)
-            {
-                ModelState.AddModelError("FechaEntrega", "La fecha de entrega debe ser igual o posterior a la fecha de retiro.");
+                ModelState.AddModelError("FechaRetiro", "Debe ingresar una fecha de retiro y una fecha de entrega valida.");
             }
 
             long totalSize = ImagenCarga.Sum(file => file.Length);
@@ -84,14 +74,9 @@ namespace ImplementacionUS.Pages
             }
 
             //Validacion otros campos
-            if (Numero_entrega <= 0)
+            if (Numero_entrega <= 0 || Numero_retiro <= 0)
             {
-                ModelState.AddModelError("Numero_entrega", "Ingrese un numero de calle de entrega mayor a 0.");
-            }
-
-            if (Numero_retiro <= 0)
-            {
-                ModelState.AddModelError("Numero_retiro", "Ingrese un numero de calle de retiro mayor a 0.");
+                ModelState.AddModelError("Numero_entrega", "Los numeros de las calles, deben ser mayores o iguales a 0.");
             }
 
             //Validacion de registro de errores

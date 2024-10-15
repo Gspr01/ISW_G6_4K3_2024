@@ -50,6 +50,15 @@ h1 {
         background-color: #00B4D8; /* Color de fondo del botón al pasar el ratón */
         border-color: #00B4D8; /* Color del borde del botón al pasar el ratón */
     }
+.btn-secondary {
+            background-color: #90E0EF; /* Color de fondo del botón */
+            border-color: #90E0EF; /* Color del borde del botón */
+}
+
+        .btn-secondary:hover {
+            background-color: #00B4D8; /* Color de fondo del botón al pasar el ratón */
+            border-color: #00B4D8; /* Color del borde del botón al pasar el ratón */
+        }
 
 .alert-success {
     background-color: #90E0EF; /* Color de fondo de la alerta de éxito */
@@ -103,13 +112,13 @@ h1 {
                     <!-- Calle -->
                     <div class="form-group">
                         <label for="calle">Calle:</label>
-                        <input type="text" id="calle_retiro" class="form-control" asp-for="Calle_retiro" placeholder="Ingrese la calle" required style="margin-bottom: 10px">
+                        <input type="text" id="calle_retiro" class="form-control" asp-for="Calle_retiro" maxlength="150" placeholder="Ingrese la calle" required style="margin-bottom: 10px">
                     </div>
 
                     <!-- Número -->
                     <div class="form-group">
                         <label for="numero_retiro">Número:</label>
-                        <input type="number" id="numero_retiro" class="form-control" asp-for="Numero_retiro" placeholder="Ingrese el número" required style="margin-bottom: 10px">
+                        <input type="number" id="numero_retiro" class="form-control" asp-for="Numero_retiro" maxlength="150" placeholder="Ingrese el número" required style="margin-bottom: 10px">
                     </div>
 
                     <!-- Provincia -->
@@ -127,19 +136,19 @@ h1 {
                     <!-- Localidad -->
                     <div class="form-group">
                         <label for="localidad">Localidad:</label>
-                        <input type="text" id="localidad_retiro" class="form-control" asp-for="Localidad_retiro" placeholder="Ingrese la localidad" required style="margin-bottom: 10px">
+                        <input type="text" id="localidad_retiro" class="form-control" asp-for="Localidad_retiro" maxlength="150"  placeholder="Ingrese la localidad" required style="margin-bottom: 10px">
                     </div>
 
                     <!-- Referencia -->
                     <div class="form-group">
                         <label for="referencia_retiro">Referencia (opcional):</label>
-                        <input type="text" id="referencia_retiro" class="form-control" asp-for="Referencia_retiro" placeholder="Ingrese una referencia">
+                        <input type="text" id="referencia_retiro" class="form-control" asp-for="Referencia_retiro" maxlength="150" placeholder="Ingrese una referencia">
                     </div>
 
                     <!-- Fecha de Retiro -->
                     <div class="form-group">
                         <label for="FechaRetiro" class="Subtitulo">Fecha de Retiro</label>
-                        <input type="date" id="FechaRetiro" name="FechaRetiro" class="form-control" asp-for="FechaRetiro" required style="margin-bottom: 20px;" />
+                        <input type="date" id="FechaRetiro" name="FechaRetiro" class="form-control" asp-for="FechaRetiro" maxlength="150" required style="margin-bottom: 20px;" />
                         <span asp-validation-for="FechaRetiro" class="text-danger"></span>
                     </div>
                 </div>
@@ -149,9 +158,10 @@ h1 {
                     <div class="form-group mt-4 align-top">
                         <label for="imagenCarga" class="Subtitulo_img">Adjuntar Imagenes:</label>
 
-                        <input type="file" id="imagenCarga" name="imagenCarga" class="form-control-file" accept=".png, .jpf" multiple/>
+                        <input type="file" id="imagenCarga" name="imagenCarga" class="form-control-file" accept=".png, .jpf" multiple onchange="this.files.length > 3 ? this.value = '' : null" />
 
-                        <small class="form-text text-muted">Seleccione una imagen para cargar. El tamaño máximo permitido es 10 MB.</small>
+                        <small class="form-text text-muted">Seleccione un maximo de 3 archivos y que pesen menos de 10mb.
+                        </small>
                     </div>
 
                     <!-- Campos de domicilio de entrega -->
@@ -162,13 +172,13 @@ h1 {
                     <!-- Calle Entrega -->
                     <div class="form-group">
                         <label for="calle">Calle:</label>
-                        <input type="text" id="calle_entrega" class="form-control" asp-for="Calle_entrega" placeholder="Ingrese la calle" required style="margin-bottom: 10px">
+                        <input type="text" id="calle_entrega" class="form-control" asp-for="Calle_entrega" maxlength="150"  placeholder="Ingrese la calle" required style="margin-bottom: 10px">
                     </div>
 
                     <!-- Número Entrega -->
                     <div class="form-group">
                         <label for="numero_entrega">Número:</label>
-                        <input type="number" id="numero_entrega" class="form-control" asp-for="Numero_entrega" placeholder="Ingrese el número" required style="margin-bottom: 10px">
+                        <input type="number" id="numero_entrega" class="form-control" asp-for="Numero_entrega" maxlength="150" placeholder="Ingrese el número" required style="margin-bottom: 10px">
                     </div>
 
                     <!-- Provincia Entrega -->
@@ -186,19 +196,19 @@ h1 {
                     <!-- Localidad Entrega -->
                     <div class="form-group">
                         <label for="localidad">Localidad:</label>
-                        <input type="text" id="localidad_entrega" class="form-control" asp-for="Localidad_entrega" placeholder="Ingrese la localidad" required style="margin-bottom: 10px">
+                        <input type="text" id="localidad_entrega" class="form-control" asp-for="Localidad_entrega" maxlength="150" placeholder="Ingrese la localidad" required style="margin-bottom: 10px">
                     </div>
 
                     <!-- Referencia Entrega -->
                     <div class="form-group">
                         <label for="referencia_entrega">Referencia (opcional):</label>
-                        <input type="text" id="referencia_entrega" class="form-control" asp-for="Referencia_entrega" placeholder="Ingrese una referencia" />
+                        <input type="text" id="referencia_entrega" class="form-control" asp-for="Referencia_entrega" maxlength="150" placeholder="Ingrese una referencia" />
                     </div>
 
                     <!-- Fecha de Entrega -->
                     <div class="form-group">
                         <label for="fechaEntrega" class="Subtitulo">Fecha de Entrega:</label>
-                        <input type="date" id="fechaEntrega" name="FechaEntrega" class="form-control" asp-for="FechaEntrega" required style="margin-bottom: 10px" />
+                        <input type="date" id="fechaEntrega" name="FechaEntrega" class="form-control" asp-for="FechaEntrega" maxlength="150" required style="margin-bottom: 10px" />
                         <span asp-validation-for="FechaEntrega" class="text-danger"></span>
                     </div>
                 </div>
@@ -207,8 +217,19 @@ h1 {
             <!-- Botón de Enviar -->
             <div class="text-center mt-4">
                 <button type="submit" class="btn btn-primary" style ="margin-top: 20px">Publicar Pedido</button>
+                <button type="button" class="btn btn-secondary" style = "margin-top: 20px" onclick="resetForm()">Cancelar</button>
             </div>
         </form>
+
+        @section Scripts {
+            <script>
+                function resetForm() {
+                    document.querySelector('form').reset();
+                }
+        </script>
+        }
+        
+    
        
         <!--CHEQUEO DE ASIGNACION DE DATOS -->
         @if (Model.TipoCarga != null && ModelState.IsValid)
