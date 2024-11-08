@@ -45,6 +45,7 @@ Repositorio para la materia ingenieria y calidad de software, del curso 4k3 - Gr
 | Trabajo de Práctico Grupal | \<TPx>.pdf | ISW_G6_4K3_2024/Material_Practico/\<TPx> | 
 | Guía para presentación de trabajos de investigación | Guía_para_presentación_de_trabajos_de_investigación.pdf | ISW_G6_4K3_2024/Material_Practico/Trabajo_de_Investigación_Grupal/ |
 | Trabajo de Investigación Grupal | \<TIGx>.pdf | ISW_G6_4K3_2024/Material_Practico/Trabajo_de_investigación_grupal/\<Nombre_tema_TIG> |
+| Referencias TIG | \<TIGx_Referencias>.md | ISW_G6_4K3_2024/Material_Practico/Trabajo_de_investigación_grupal/\<Nombre_tema_TIG> |
 
 ## Glosario
 | Sigla| Significado |
