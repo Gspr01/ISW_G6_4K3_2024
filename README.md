@@ -77,7 +77,8 @@ Líneas base disponibles:
 | v2.0 | 18/9/2024 | Implementación del US correspondiente al Trabajo práctico evaluable N° 6 | 
 | v3.0 | 26/9/2024 | Implementación de la dinámica del marco de trabajo SCRUM correspondiente al Trabajo práctico evaluable N° 7 | 
 | v4.0 | 07/10/2024 | Primer Parcial rendido el 28/9/2024 | 
-
+| v5.0 | 07/11/2024 | Trabajo Práctico 13: Kanban |
+| v6.0 | 09/11/2024 | Segundo parcial rendido el 26/10/2024 y trabajo de investigación grupal 1 (póster científico) |
 
 
 
