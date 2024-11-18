@@ -79,7 +79,7 @@ Líneas base disponibles:
 | v4.0 | 07/10/2024 | Primer Parcial rendido el 28/9/2024 | 
 | v5.0 | 07/11/2024 | Trabajo Práctico 13: Kanban |
 | v6.0 | 09/11/2024 | Segundo parcial rendido el 26/10/2024 y trabajo de investigación grupal 1 (póster científico) |
-
+| v7.0 | 16/11/2024 | Trabajo de investigación grupal 2 (charla TED, acerca de framework Cynefin). |
 
 
 
